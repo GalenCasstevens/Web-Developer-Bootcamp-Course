@@ -1,0 +1,10 @@
+body {
+  background: orange;
+}
+li#special {
+  background-color: blue;
+  color: white;
+}
+.completed {
+  text-decoration: line-through;
+}
