@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+table#ticTacToe {
+  width: 50px;
+  margin: auto;
+  border-collapse: collapse;
+}
+table#ticTacToe .row1 .col1 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row1 .col2 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row1 .col3 {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row2 .col1 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row2 .col2 {
+  border: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row2 .col3 {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row3 .col1 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row3 .col2 {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 80px;
+}
+table#ticTacToe .row3 .col3 {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  padding: 80px;
+}
